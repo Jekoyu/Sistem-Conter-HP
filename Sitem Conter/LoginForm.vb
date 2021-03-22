@@ -17,10 +17,12 @@
         role = dr.Item("name")
         If role = "admin" Then
             AdminForm.Show()
+            AllHome.LblNama.Text = dr.Item("username")
             Form1.Visible = False
             Kosongkan()
         ElseIf role = "user" Then
             UserForm.Show()
+            AllHome.LblNama.Text = dr.Item("username")
             Form1.Visible = False
             Kosongkan()
         End If

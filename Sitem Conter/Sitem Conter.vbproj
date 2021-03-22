@@ -79,6 +79,36 @@
     <Compile Include="AdminForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AdminManageBarang.Designer.vb">
+      <DependentUpon>AdminManageBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminManageBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminManageUser.Designer.vb">
+      <DependentUpon>AdminManageUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminManageUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllAbout.Designer.vb">
+      <DependentUpon>AllAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AllAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllHome.Designer.vb">
+      <DependentUpon>AllHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AllHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogout.Designer.vb">
+      <DependentUpon>AdminLogout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogout.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Control.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
@@ -120,8 +150,32 @@
     <Compile Include="UserForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UserLogout.Designer.vb">
+      <DependentUpon>UserLogout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogout.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminManageBarang.resx">
+      <DependentUpon>AdminManageBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminManageUser.resx">
+      <DependentUpon>AdminManageUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllAbout.resx">
+      <DependentUpon>AllAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllHome.resx">
+      <DependentUpon>AllHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogout.resx">
+      <DependentUpon>AdminLogout.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +190,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogout.resx">
+      <DependentUpon>UserLogout.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

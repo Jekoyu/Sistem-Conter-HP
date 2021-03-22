@@ -23,7 +23,7 @@ Module Control
         End Try
     End Sub
 
-    Function Tampil(ByVal tbl As String, clm As String) As Boolean
+    Function Tampil(ByVal clm As String, tbl As String) As Boolean
         Try
             Koneksi()
             da = New SqlDataAdapter("select " + clm + " from " + tbl, conn)
