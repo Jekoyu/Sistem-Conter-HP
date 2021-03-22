@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class AdminForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,31 +22,9 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PnlContent = New System.Windows.Forms.Panel()
-        Me.SuspendLayout()
-        '
-        'PnlContent
-        '
-        Me.PnlContent.Dock = System.Windows.Forms.DockStyle.Right
-        Me.PnlContent.Location = New System.Drawing.Point(550, 0)
-        Me.PnlContent.Name = "PnlContent"
-        Me.PnlContent.Size = New System.Drawing.Size(550, 700)
-        Me.PnlContent.TabIndex = 0
-        '
-        'Form1
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        components = New System.ComponentModel.Container
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DeepSkyBlue
-        Me.ClientSize = New System.Drawing.Size(1100, 700)
-        Me.Controls.Add(Me.PnlContent)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Form1"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
-        Me.ResumeLayout(False)
-
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Text = "AdminForm"
     End Sub
-
-    Friend WithEvents PnlContent As Panel
 End Class

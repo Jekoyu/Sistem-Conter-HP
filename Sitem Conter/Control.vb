@@ -25,6 +25,7 @@ Module Control
 
     Function Tampil(ByVal tbl As String, clm As String) As Boolean
         Try
+            Koneksi()
             da = New SqlDataAdapter("select " + clm + " from " + tbl, conn)
             ds = New DataSet
             da.Fill(ds)
@@ -36,6 +37,7 @@ Module Control
     End Function
     Function Cari(ByVal q As String) As Boolean
         Try
+            Koneksi()
             cmd = New SqlCommand(q, conn)
             dr = cmd.ExecuteReader
             dr.Read()
@@ -47,6 +49,7 @@ Module Control
     End Function
     Function ENQ(ByVal q As String) As Boolean
         Try
+            Koneksi()
             cmd = New SqlCommand(q, conn)
             cmd.ExecuteNonQuery()
         Catch ex As Exception
